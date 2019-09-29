@@ -1,0 +1,212 @@
+{
+  "id": "7c1cc839-d8c4-47ce-a944-2cb10257650d",
+  "version": "2.0",
+  "name": "bbc_learning",
+  "url": "http://www.bbc.co.uk/learning/subjects/childrens_learning.shtml",
+  "tests": [{
+    "id": "223fa648-354b-4a2d-83bf-c397d5f05899",
+    "name": "Adult_Learning_KS2",
+    "commands": [{
+      "id": "99a60e50-8848-4f44-b0cc-d9504ad5d14d",
+      "comment": "",
+      "command": "open",
+      "target": "/learning/subjects/childrens_learning.shtml",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef5700c7-8cce-4a7a-946e-8bdc1ff91343",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51d762e0-32f6-43a4-aaf1-017c014156cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) strong",
+      "targets": [
+        ["css=tr:nth-child(5) strong", "css:finder"],
+        ["xpath=//table[@id='bbcpageTableNav']/tbody/tr[2]/td/table/tbody/tr[5]/td/div/a/strong", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/div/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Adult Learning')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6360007e-ad82-40d5-8de2-2bfe888bfa9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.phase-card--primary span",
+      "targets": [
+        ["css=.phase-card--primary span", "css:finder"],
+        ["xpath=//div[@id='u404565083397525']/div/div/div/div/div/div/a/div/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Go to Primary')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57e79e5d-7f3e-4cc7-bd69-514f256c380f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3f7d183-4a50-47a2-b959-414600405f81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ec-grid__item--primary-index:nth-child(1) li:nth-child(2) .education-link__link-title--bitesize-primary",
+      "targets": [
+        ["css=.ec-grid__item--primary-index:nth-child(1) li:nth-child(2) .education-link__link-title--bitesize-primary", "css:finder"],
+        ["xpath=//div[@id='u9111603699478913']/div/section/div/div/div/div/span/div/ul/li[2]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c4657ff-2381-44f2-8005-65adae47c07d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,59)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e98da215-73c2-4fe6-975a-fbc366919874",
+      "comment": "",
+      "command": "click",
+      "target": "css=#z826n39 .bitesize-subject-icon",
+      "targets": [
+        ["css=#z826n39 .bitesize-subject-icon", "css:finder"],
+        ["xpath=//img[contains(@src,'https://bitesize.files.bbci.co.uk/images/svgs/subjects/v2/primary/z6vg9j6.svg')]", "xpath:img"],
+        ["xpath=//li[@id='z826n39']/a/img", "xpath:idRelative"],
+        ["xpath=//li[12]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1de0763-8599-4db1-9755-e66a26322689",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,27)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dcd06a0a-2f04-409c-b511-914cf69d9a46",
+    "name": "SearchCourse",
+    "commands": [{
+      "id": "ec104c7f-0892-4b2e-8ff9-9fcd733b9e00",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.bbc.co.uk/learning/subjects/childrens_learning.shtml",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4a0cbfe-db5c-4ddf-9930-fa3c97bc2649",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8defbc2-b0c3-45f8-b33d-9303c5843b4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) strong",
+      "targets": [
+        ["css=tr:nth-child(7) strong", "css:finder"],
+        ["xpath=//table[@id='bbcpageTableNav']/tbody/tr[2]/td/table/tbody/tr[7]/td/div/a/strong", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/div/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Course Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35da0023-1a51-452c-82bc-8893a6baa0a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=orb-search-q",
+      "targets": [
+        ["id=orb-search-q", "id"],
+        ["name=q", "name"],
+        ["css=#orb-search-q", "css:finder"],
+        ["xpath=//input[@id='orb-search-q']", "xpath:attributes"],
+        ["xpath=//form[@id='orb-search-form']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d42b1c4-ce07-46a8-a344-d5d1d7b575c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=orb-search-q",
+      "targets": [
+        ["id=orb-search-q", "id"],
+        ["name=q", "name"],
+        ["css=#orb-search-q", "css:finder"],
+        ["xpath=//input[@id='orb-search-q']", "xpath:attributes"],
+        ["xpath=//form[@id='orb-search-form']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "m"
+    }, {
+      "id": "2d48bcd3-b141-4822-9b64-1df8ac9668bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "561659fc-e390-4715-a106-44567745b010",
+      "comment": "",
+      "command": "type",
+      "target": "id=se-searchbox-input-field",
+      "targets": [
+        ["id=se-searchbox-input-field", "id"],
+        ["css=#se-searchbox-input-field", "css:finder"],
+        ["xpath=//input[@id='se-searchbox-input-field']", "xpath:attributes"],
+        ["xpath=//form[@id='searchboxDrawerForm']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "maths"
+    }, {
+      "id": "99d5b156-cf21-4129-9fb4-4cee4db5c6c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=suggestion-0",
+      "targets": [
+        ["id=suggestion-0", "id"],
+        ["linkText=Maths and Magic", "linkText"],
+        ["css=#suggestion-0", "css:finder"],
+        ["xpath=//a[@id='suggestion-0']", "xpath:attributes"],
+        ["xpath=//div[@id='se-searchbox-app']/div/div/div/section/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://search.bbc.co.uk/search?q=Maths%20and%20Magic&suggid=urn%3Abbc%3Aprogrammes%3Ab03ls7y2&scope=all%3Alearning')]", "xpath:href"],
+        ["xpath=//section/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Maths and Magic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5a9068c-4dc0-4648-9e62-004119be99fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BBC - KS2 Bitesize Maths - Shape, space & measures",
+      "targets": [
+        ["linkText=BBC - KS2 Bitesize Maths - Shape, space & measures", "linkText"],
+        ["css=li:nth-child(1) div a", "css:finder"],
+        ["xpath=//a[contains(text(),'BBC - KS2 Bitesize Maths - Shape, space & measures')]", "xpath:link"],
+        ["xpath=//section[@id='search-content']/ol/li/article/div/h1/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.bbc.co.uk/bitesize/ks2/maths/shape_space/']", "xpath:href"],
+        ["xpath=//h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BBC - KS2 Bitesize Maths - Shape, space & measures')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f63af66-b567-41b5-8180-7a47488c7207",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["223fa648-354b-4a2d-83bf-c397d5f05899"]
+  }],
+  "urls": ["http://www.bbc.co.uk/", "http://www.bbc.co.uk/learning/subjects/childrens_learning.shtml"],
+  "plugins": []
+}

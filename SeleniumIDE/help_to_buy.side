@@ -1,0 +1,302 @@
+{
+  "id": "ce61060c-d054-4cb5-85ca-a2b50e9ef02c",
+  "version": "2.0",
+  "name": "help_to_buy",
+  "url": "https://www.helptobuylondon.co.uk/",
+  "tests": [{
+    "id": "f1efcf91-5f97-4f65-9f60-c82bf5d69a1c",
+    "name": "InformationTab",
+    "commands": [{
+      "id": "163ecfdf-60b1-4dc4-a0dc-4a59647cc7e0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.helptobuylondon.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ead4eb72-bbc3-4cc5-bf14-2159c280cabe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86f8b979-c507-434c-b8ac-efe555a52c7b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Information",
+      "targets": [
+        ["linkText=Information", "linkText"],
+        ["css=.li1:nth-child(4) > .a1", "css:finder"],
+        ["xpath=//a[contains(text(),'Information')]", "xpath:link"],
+        ["xpath=//ul[@id='Header_T6B181E4D009_ctl00_ctl00_navigationUl']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'useful-information')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05addb68-cf90-44ee-b2d2-6e3111423fb6",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainBody_C004_ctl00_ctl00_imageItem",
+      "targets": [
+        ["id=MainBody_C004_ctl00_ctl00_imageItem", "id"],
+        ["css=#MainBody_C004_ctl00_ctl00_imageItem", "css:finder"],
+        ["xpath=//img[@alt='London Help to Buy']", "xpath:img"],
+        ["xpath=//img[@id='MainBody_C004_ctl00_ctl00_imageItem']", "xpath:attributes"],
+        ["xpath=//div[@id='MainBody_T79DE673A006_Col01']/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61aa4ca4-4a60-4e48-8b51-36fbdbf36f79",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Solicitors",
+      "targets": [
+        ["linkText=Solicitors", "linkText"],
+        ["css=.li1:nth-child(4) > .a1:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Solicitors')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='MainBody_C003_ctl00_ctl00_navigationUl']/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'useful-information/solicitors')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/div/div/nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd33cc32-f008-4bcb-8d81-0e7232a5d926",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=http://astonbrooke.co.uk",
+      "targets": [
+        ["linkText=http://astonbrooke.co.uk", "linkText"],
+        ["css=.post_item:nth-child(3) .post_item_summary a", "css:finder"],
+        ["xpath=//a[contains(text(),'http://astonbrooke.co.uk')]", "xpath:link"],
+        ["xpath=//div[@id='MainBody_T79DE673A006_Col00']/div[2]/div/article[3]/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://astonbrooke.co.uk ']", "xpath:href"],
+        ["xpath=//article[3]/div[2]/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'http://astonbrooke.co.uk')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win354",
+      "windowTimeout": 2000
+    }, {
+      "id": "3e5a4b24-837c-4598-8634-d193d237055b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win354}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9203e84f-0e97-4f5c-9b40-998b2d9b15cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SERVICES",
+      "targets": [
+        ["linkText=SERVICES", "linkText"],
+        ["css=.col-md-2:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'SERVICES')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://astonbrooke.co.uk/our-services/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fe2f29b0-cb9d-4b8f-a917-dbf31ec9f3d0",
+    "name": "Other Housing Option",
+    "commands": [{
+      "id": "115da51c-0121-4317-8c91-7a1939c47982",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.helptobuylondon.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cfe6b58-8b03-4c07-b94c-2cb894899c54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b95327f-08cf-43ab-93c6-846c9384a2d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Other housing options",
+      "targets": [
+        ["linkText=Other housing options", "linkText"],
+        ["css=.li1:nth-child(3) > .a1", "css:finder"],
+        ["xpath=//a[contains(text(),'Other housing options')]", "xpath:link"],
+        ["xpath=//ul[@id='Header_T6B181E4D009_ctl00_ctl00_navigationUl']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'other-housing-options')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Other housing options')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f94d225-ce66-4227-a17f-62a41e42bd63",
+      "comment": "",
+      "command": "click",
+      "target": "css=#MainBody_TB6B674F7003_ctl00_ctl00_navigationUl > .li1:nth-child(1) > .a1",
+      "targets": [
+        ["css=#MainBody_TB6B674F7003_ctl00_ctl00_navigationUl > .li1:nth-child(1) > .a1", "css:finder"],
+        ["xpath=(//a[contains(text(),'Mortgage Guarantee')])[3]", "xpath:link"],
+        ["xpath=//ul[@id='MainBody_TB6B674F7003_ctl00_ctl00_navigationUl']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'other-housing-options/mortgage-guarantee')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed4fd11a-e36b-43b0-b884-6bf81f5580fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=UpperFooter_T6B181E4D004_ctl00_ctl00_firstName",
+      "targets": [
+        ["id=UpperFooter_T6B181E4D004_ctl00_ctl00_firstName", "id"],
+        ["name=ctl00$UpperFooter$T6B181E4D004$ctl00$ctl00$firstName", "name"],
+        ["css=#UpperFooter_T6B181E4D004_ctl00_ctl00_firstName", "css:finder"],
+        ["xpath=//input[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_firstName']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_formFieldset']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb71e594-4209-44ce-ba72-38c3b4dfd968",
+      "comment": "",
+      "command": "type",
+      "target": "id=UpperFooter_T6B181E4D004_ctl00_ctl00_firstName",
+      "targets": [
+        ["id=UpperFooter_T6B181E4D004_ctl00_ctl00_firstName", "id"],
+        ["name=ctl00$UpperFooter$T6B181E4D004$ctl00$ctl00$firstName", "name"],
+        ["css=#UpperFooter_T6B181E4D004_ctl00_ctl00_firstName", "css:finder"],
+        ["xpath=//input[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_firstName']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_formFieldset']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Million"
+    }, {
+      "id": "740d8d4f-7b70-42ac-b69f-ea76c8d1670c",
+      "comment": "",
+      "command": "click",
+      "target": "id=UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress",
+      "targets": [
+        ["id=UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress", "id"],
+        ["name=ctl00$UpperFooter$T6B181E4D004$ctl00$ctl00$emailAddress", "name"],
+        ["css=#UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress", "css:finder"],
+        ["xpath=//input[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_formFieldset']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e03db2c7-5b43-4b44-8a8c-d8957f70ad03",
+      "comment": "",
+      "command": "type",
+      "target": "id=UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress",
+      "targets": [
+        ["id=UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress", "id"],
+        ["name=ctl00$UpperFooter$T6B181E4D004$ctl00$ctl00$emailAddress", "name"],
+        ["css=#UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress", "css:finder"],
+        ["xpath=//input[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_formFieldset']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "million@million.con"
+    }, {
+      "id": "dd028724-9f7a-4749-92e4-df48c43f4067",
+      "comment": "",
+      "command": "click",
+      "target": "id=UpperFooter_T6B181E4D004_ctl00_ctl00_subscribeButton",
+      "targets": [
+        ["id=UpperFooter_T6B181E4D004_ctl00_ctl00_subscribeButton", "id"],
+        ["name=ctl00$UpperFooter$T6B181E4D004$ctl00$ctl00$subscribeButton", "name"],
+        ["css=#UpperFooter_T6B181E4D004_ctl00_ctl00_subscribeButton", "css:finder"],
+        ["xpath=//input[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_subscribeButton']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_formFieldset']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "533f88ff-200c-4ae2-9526-ecc83315fe48",
+      "comment": "",
+      "command": "click",
+      "target": "id=UpperFooter_T6B181E4D004_ctl00_ctl00_firstName",
+      "targets": [
+        ["id=UpperFooter_T6B181E4D004_ctl00_ctl00_firstName", "id"],
+        ["name=ctl00$UpperFooter$T6B181E4D004$ctl00$ctl00$firstName", "name"],
+        ["css=#UpperFooter_T6B181E4D004_ctl00_ctl00_firstName", "css:finder"],
+        ["xpath=//input[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_firstName']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_formFieldset']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88b41516-f41e-4bdd-8284-20fae31bc986",
+      "comment": "",
+      "command": "type",
+      "target": "id=UpperFooter_T6B181E4D004_ctl00_ctl00_firstName",
+      "targets": [
+        ["id=UpperFooter_T6B181E4D004_ctl00_ctl00_firstName", "id"],
+        ["name=ctl00$UpperFooter$T6B181E4D004$ctl00$ctl00$firstName", "name"],
+        ["css=#UpperFooter_T6B181E4D004_ctl00_ctl00_firstName", "css:finder"],
+        ["xpath=//input[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_firstName']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_formFieldset']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "2467f49e-91a8-401e-b7c4-0c75fe5c2a85",
+      "comment": "",
+      "command": "click",
+      "target": "id=UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress",
+      "targets": [
+        ["id=UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress", "id"],
+        ["name=ctl00$UpperFooter$T6B181E4D004$ctl00$ctl00$emailAddress", "name"],
+        ["css=#UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress", "css:finder"],
+        ["xpath=//input[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_formFieldset']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1bebc76-6900-44f9-a69d-a2bd2da1c0a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress",
+      "targets": [
+        ["id=UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress", "id"],
+        ["name=ctl00$UpperFooter$T6B181E4D004$ctl00$ctl00$emailAddress", "name"],
+        ["css=#UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress", "css:finder"],
+        ["xpath=//input[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_emailAddress']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_formFieldset']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "million@million.con"
+    }, {
+      "id": "3d0bfec0-f3c5-4e86-80ab-df9e8be63736",
+      "comment": "",
+      "command": "click",
+      "target": "id=UpperFooter_T6B181E4D004_ctl00_ctl00_subscribeButton",
+      "targets": [
+        ["id=UpperFooter_T6B181E4D004_ctl00_ctl00_subscribeButton", "id"],
+        ["name=ctl00$UpperFooter$T6B181E4D004$ctl00$ctl00$subscribeButton", "name"],
+        ["css=#UpperFooter_T6B181E4D004_ctl00_ctl00_subscribeButton", "css:finder"],
+        ["xpath=//input[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_subscribeButton']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='UpperFooter_T6B181E4D004_ctl00_ctl00_formFieldset']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "457eb274-5d90-4eea-87a6-7356889c7966",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f1efcf91-5f97-4f65-9f60-c82bf5d69a1c"]
+  }],
+  "urls": ["https://www.helptobuylondon.co.uk/"],
+  "plugins": []
+}

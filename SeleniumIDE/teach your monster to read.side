@@ -1,0 +1,450 @@
+{
+  "id": "a252f00f-3cc6-4dad-a08f-3f55a15698fe",
+  "version": "2.0",
+  "name": "teach your monster to read",
+  "url": "https://www.teachyourmonstertoread.com/",
+  "tests": [{
+    "id": "a01895d0-268b-4002-8509-fcee2efe22c7",
+    "name": "Abouth the Game",
+    "commands": [{
+      "id": "f8192d2b-88aa-46a7-ae37-f97739088e8f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.teachyourmonstertoread.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f1dc061-dc77-44a3-9ba9-90f8e7819345",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a500f083-6f8f-457e-a37d-0415eb47df0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-uppercase:nth-child(3) > a",
+      "targets": [
+        ["css=.t-uppercase:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'About the Game')])[2]", "xpath:link"],
+        ["xpath=//section[@id='content']/header[2]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/about-the-game')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4984b9e-d1db-4ba7-9247-65d38e0c9281",
+      "comment": "",
+      "command": "click",
+      "target": "id=what-devices-does-the-game-work-on",
+      "targets": [
+        ["id=what-devices-does-the-game-work-on", "id"],
+        ["css=#what-devices-does-the-game-work-on", "css:finder"],
+        ["xpath=//h3[@id='what-devices-does-the-game-work-on']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div[3]/div/div/div/article[2]/section/header/a/h3", "xpath:idRelative"],
+        ["xpath=//article[2]/section/header/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'What devices does the game work on?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ce4a9d5-1bba-4167-a039-c88eec802649",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Back to About The Game",
+      "targets": [
+        ["linkText=Back to About The Game", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to About The Game')]", "xpath:link"],
+        ["xpath=//section[@id='content']/div[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/about-the-game')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to About The Game')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d35bcd63-cf45-459a-9b84-4f3c919223d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=what-age-is-this-for-and-what-does-it-cover",
+      "targets": [
+        ["id=what-age-is-this-for-and-what-does-it-cover", "id"],
+        ["css=#what-age-is-this-for-and-what-does-it-cover", "css:finder"],
+        ["xpath=//h3[@id='what-age-is-this-for-and-what-does-it-cover']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div[3]/div/div/div/article/section/header/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'What age is this for and what does it cover?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d2960de-7612-4c72-ac01-a86715364773",
+      "comment": "",
+      "command": "click",
+      "target": "css=.block-img > img",
+      "targets": [
+        ["css=.block-img > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://tymtr.cdn.prismic.io/tymtr/8255fb89ecd2d044e02d85f850fd1cf4e804c02d_download.png')]", "xpath:img"],
+        ["xpath=//section[@id='content']/div[3]/div/div/div/p[2]/img", "xpath:idRelative"],
+        ["xpath=//p[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b5ec023-1924-4076-b727-edbe36b5774a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get a full overview of Fun With Words (pdf)",
+      "targets": [
+        ["linkText=Get a full overview of Fun With Words (pdf)", "linkText"],
+        ["css=p:nth-child(12) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Get a full overview of Fun With Words (pdf)')]", "xpath:link"],
+        ["xpath=//section[@id='content']/div[3]/div/div/div/p[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://prismic-io.s3.amazonaws.com/tymtr%2Ffeb30eeb-6ba4-4135-8f0d-0e7491b0174b_game-guide-2.pdf')]", "xpath:href"],
+        ["xpath=//p[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get a full overview of Fun With Words (pdf)')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7472",
+      "windowTimeout": 2000
+    }, {
+      "id": "c06ed7b0-0a53-4327-9d4f-760397ff1a63",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09b02066-01e1-4e16-9a4f-2c83e8c8fca9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7472}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "433f09c3-ea7d-4c15-a88b-910bd3b00b8f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "708db7e9-4c69-47cd-ad44-0feedfc11967",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7472}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0a3f48a-36c4-401e-81d8-7a0fda0594de",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12d388d0-ecb7-44ad-a889-2d7d3cf29cd8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "06e850df-8ca8-4677-b735-aaeab0a7cbe3",
+    "name": "Teacher's Area",
+    "commands": [{
+      "id": "85bab0ca-a466-4783-ae00-17cb6fc4aee9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.teachyourmonstertoread.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edec0032-7573-4aae-8143-93d2c54be929",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4893948-04a9-4151-8a8c-57744ac479cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-uppercase:nth-child(4) > a",
+      "targets": [
+        ["css=.t-uppercase:nth-child(4) > a", "css:finder"],
+        ["xpath=//section[@id='content']/header[2]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/teachers-area')])[2]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9f0e4f5-f32f-43a6-81a1-82f2bd3e37f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Start your adventure')]", "xpath:link"],
+        ["xpath=//section[@id='content']/div[3]/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/accounts/sign_up')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2c43ff4-1a96-4b28-9dff-e7fb9bc2521d",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_user_type",
+      "targets": [
+        ["id=user_user_type", "id"],
+        ["name=user[user_type]", "name"],
+        ["css=#user_user_type", "css:finder"],
+        ["xpath=//select[@id='user_user_type']", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Teacher\nParent\nOther')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07dcb7e3-fde3-4507-89c7-5639e142efac",
+      "comment": "",
+      "command": "select",
+      "target": "id=user_user_type",
+      "targets": [],
+      "value": "label=Parent"
+    }, {
+      "id": "f97e6793-d892-41d7-82c4-46d0bb942b3d",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_user_type",
+      "targets": [
+        ["id=user_user_type", "id"],
+        ["name=user[user_type]", "name"],
+        ["css=#user_user_type", "css:finder"],
+        ["xpath=//select[@id='user_user_type']", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Teacher\nParent\nOther')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0369f77-631c-4cbb-be3c-c061c73bf12c",
+      "comment": "",
+      "command": "select",
+      "target": "id=user_user_type",
+      "targets": [],
+      "value": "label=Other"
+    }, {
+      "id": "e3a56810-d17a-424b-9e22-6f5d9c3d05eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_user_type",
+      "targets": [
+        ["id=user_user_type", "id"],
+        ["name=user[user_type]", "name"],
+        ["css=#user_user_type", "css:finder"],
+        ["xpath=//select[@id='user_user_type']", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Teacher\nParent\nOther')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc3f8e54-af8f-48fc-8f77-3c88014860ac",
+      "comment": "",
+      "command": "select",
+      "target": "id=user_user_type",
+      "targets": [],
+      "value": "label=Parent"
+    }, {
+      "id": "10651378-e2a4-4890-a494-85f3b32c5b55",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_user_type",
+      "targets": [
+        ["id=user_user_type", "id"],
+        ["name=user[user_type]", "name"],
+        ["css=#user_user_type", "css:finder"],
+        ["xpath=//select[@id='user_user_type']", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Teacher\nParent\nOther')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c7b65b5-6242-4395-be48-a7acfd938c09",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_referral_source",
+      "targets": [
+        ["id=user_referral_source", "id"],
+        ["name=user[referral_source]", "name"],
+        ["css=#user_referral_source", "css:finder"],
+        ["xpath=//select[@id='user_referral_source']", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[5]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Select an option\nFacebook (something a friend posted)\nFacebook (something we posted)\nTwitter\nPinterest\nA magazine or newspaper\nA website or blog\nFrom an advert\nAt an event\nRecommended by a parent\nRecommended by a teacher\nThrough a search engine\nSomewhere else')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd343380-e2dc-4465-a8a6-4cd8ee92bce9",
+      "comment": "",
+      "command": "select",
+      "target": "id=user_referral_source",
+      "targets": [],
+      "value": "label=From an advert"
+    }, {
+      "id": "34b54ad9-ef22-4ceb-a41b-68fd555f026b",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_referral_source",
+      "targets": [
+        ["id=user_referral_source", "id"],
+        ["name=user[referral_source]", "name"],
+        ["css=#user_referral_source", "css:finder"],
+        ["xpath=//select[@id='user_referral_source']", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[5]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Select an option\nFacebook (something a friend posted)\nFacebook (something we posted)\nTwitter\nPinterest\nA magazine or newspaper\nA website or blog\nFrom an advert\nAt an event\nRecommended by a parent\nRecommended by a teacher\nThrough a search engine\nSomewhere else')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bee456d6-2372-4523-9f97-00c8a6af613f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//input[@name='commit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3268fa4-e22a-4b63-8782-72d122ad5750",
+      "comment": "",
+      "command": "click",
+      "target": "css=.o-form-group > #user_email",
+      "targets": [
+        ["css=.o-form-group > #user_email", "css:finder"],
+        ["xpath=(//input[@id='user_email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e163d6ec-6ac8-4e07-b002-0531a6366853",
+      "comment": "",
+      "command": "type",
+      "target": "css=.o-form-group > #user_email",
+      "targets": [
+        ["css=.o-form-group > #user_email", "css:finder"],
+        ["xpath=(//input[@id='user_email'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": "asd@asd.com"
+    }, {
+      "id": "57464d4f-dbb9-42bd-8da9-7316601de0cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.o-form-group > #user_password",
+      "targets": [
+        ["css=.o-form-group > #user_password", "css:finder"],
+        ["xpath=(//input[@id='user_password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed3e9ea1-72dd-435b-b69e-99f0d4ab4df2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.o-form-group > #user_password",
+      "targets": [
+        ["css=.o-form-group > #user_password", "css:finder"],
+        ["xpath=(//input[@id='user_password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[2]", "xpath:position"]
+      ],
+      "value": "sfsffsgfdg"
+    }, {
+      "id": "8e4fcd19-62a3-4d3d-9b2a-44a1422eadc1",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_password_confirmation",
+      "targets": [
+        ["id=user_password_confirmation", "id"],
+        ["name=user[password_confirmation]", "name"],
+        ["css=#user_password_confirmation", "css:finder"],
+        ["xpath=//input[@id='user_password_confirmation']", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7960abfe-f086-4562-b7e9-0aea4178ca43",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_password_confirmation",
+      "targets": [
+        ["id=user_password_confirmation", "id"],
+        ["name=user[password_confirmation]", "name"],
+        ["css=#user_password_confirmation", "css:finder"],
+        ["xpath=//input[@id='user_password_confirmation']", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[3]", "xpath:position"]
+      ],
+      "value": "dgfdgggdh"
+    }, {
+      "id": "1c17dd73-396a-4f43-9692-88f68236d217",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//input[@name='commit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "104f66d1-6248-4313-9f04-7f172e05f081",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_agreement",
+      "targets": [
+        ["id=user_agreement", "id"],
+        ["name=user_agreement", "name"],
+        ["css=#user_agreement", "css:finder"],
+        ["xpath=//input[@id='user_agreement']", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32604b43-a394-4867-af82-4a2562476b8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//input[@name='commit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='new-user-form']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e9045805-f066-4723-8967-acb6e6953681",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a01895d0-268b-4002-8509-fcee2efe22c7"]
+  }],
+  "urls": ["https://www.teachyourmonstertoread.com/"],
+  "plugins": []
+}
